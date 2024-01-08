@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+
+    .container {
+        width: 95%;
+
+        nav {
+            .collapseDiv {
+                justify-content: flex-end;
+
+                ul {
+                    gap: 25px;
+                }
+            }
+        }
+    }
+}
+
+
+#shopwith {
+    width: 100%;
+    background: linear-gradient(transparent, grey), url(/img/hero_2.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .container {
+        width: 95%;
+
+        .row {
+            padding: 30px;
+
+            .shopwithtext {
+                padding: 30px;
+
+                h1 {
+                    padding-top: 30px;
+                    font-size: 80px;
+                    font-weight: 900;
+                    color: white;
+                }
+
+                p {
+                    padding-top: 20px;
+                    color: white;
+                    font-size: 18px;
+                }
+
+                .shopbutton {
+                    display: flex;
+                    gap: 5px;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    padding-right: 10px;
+
+                    button {
+                        padding: 15px 22px 15px 22px;
+                        font-size: 14px;
+                        cursor: pointer;
+                        border: none;
+                    }
+
+                    button:hover {
+                        background-color: transparent;
+                        color: white;
+                        border: 2px solid white;
+                        transition: 0.5s;
+                    }
+
+                    .shp {
+                        background-color: transparent;
+                        border: 2px solid white;
+                        cursor: pointer;
+                        color: white;
+                    }
+
+                    .shp:hover {
+                        background-color: white;
+                        color: black;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:991px) {
+    #shopwith{
+       font-size: 30px;
+
+    }
+}
+
+#apisection {
+    .divbtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+
+        #btn {
+
+            font-size: 15px;
+            background-color: black;
+            color: white;
+            font-weight: bolder;
+            padding: 10px;
+            border: none;
+
+        }
+
+        #btn:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            transition: 0.5s;
+        }
+    }
+
+
+
+    .container {
+        width: 95%;
+
+        .row {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 30px;
+
+            .apitext {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 30px;
+
+                h2 {
+                    font-size: 35px;
+                    padding: 20px;
+                    font-weight: 800;
+                }
+
+                span {
+                    color: grey;
+                    font-size: 18px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+                p {
+                    padding: 20px;
+                    color: grey;
+                    font-size: 17px;
+                }
+
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 30px;
+
+                input {
+                    width: 90px;
+                    height: 33px;
+                    padding-left: 20px;
+                    border: 1px solid black;
+                    outline: none;
+
+                    #inpp {
+                        padding: 10px;
+                    }
+                }
+
+                button {
+                    font-size: 15px;
+                    background-color: black;
+                    color: white;
+                    font-weight: bolder;
+                    padding: 5px;
+                    border: none;
+                    margin-left: -10px;
+
+                    button:hover {
+                        background-color: white;
+                        color: black;
+
+                    }
+
+
+                }
+
+                button:hover {
+                    background-color: rgb(255, 255, 255);
+                    color: #000000;
+                    transition: 0.5s;
+
+                }
+            }
+
+
+
+
+
+            #apidiv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 30px;
+                padding: 5px;
+                border-radius: 10px;
+
+                .boxDiv {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: 0.5px solid#414040;
+                    border-radius: 10px;
+                    padding: 30px;
+                    text-align: center;
+
+                    .addtobasketbtn {
+                        font-size: 15px;
+                        background-color: black;
+                        color: white;
+                        border-radius: 5px;
+                        font-weight: bolder;
+                        padding: 10px;
+                        border: none;
+
+                    }
+
+                    .addtobasketbtn:hover {
+                        background-color: white;
+                        color: #000000;
+                        transition: 0.5s;
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+#leadership {
+    width: 100%;
+
+    .container {
+        width: 95%;
+
+        .row {
+            padding: 30px;
+
+            .leader {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                p {
+                    color: grey;
+                }
+
+                h1 {
+                    font-weight: 700;
+                    padding: 20px;
+                }
+            }
+
+            .leadershipteam {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                img {
+                    max-width: 100%;
+                    padding: 30px;
+
+                }
+
+                .leadericon {
+
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    display: flex;
+                    gap: 8px;
+
+                    i {
+                        background-color: #777777;
+                        color: white;
+                        width: 9%;
+                        height: 29px;
+                        font-size: 13px;
+                        gap: 20px;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+#formSEC {
+    width: 100%;
+
+    .container {
+        width: 95%;
+
+        .row {
+            padding: 30px;
+
+            .formsec {
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                p {
+                    color: grey;
+                }
+
+                h1 {
+                    font-weight: 800;
+                }
+            }
+        }
+
+        #myFORM {
+            align-items: center;
+            justify-content: center;
+
+            padding: 30px;
+            width: fit-content;
+            margin: auto;
+
+            .namess {
+
+                display: flex;
+                width: 70%;
+
+                #nameinput {
+
+                    width: 70%;
+                }
+
+                #lastnameinput {
+
+                    width: 70%;
+                }
+
+            }
+
+            #emailinput {
+                width: 60%;
+            }
+
+            #subjectinput {
+                width: 60%;
+            }
+
+            #messageinput {
+                width: 120%;
+                height: 100px;
+            }
+
+            .buttonclass {
+                padding-top: 20px;
+
+                #submit {
+                    font-size: 15px;
+                    background-color: black;
+                    color: white;
+                    font-weight: bolder;
+                    padding: 15px;
+                    border: none;
+
+                }
+            }
+
+        }
+    }
+}
+
+
+
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}

@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .container {
+  width: 95%;
+}
+header .container nav .collapseDiv {
+  justify-content: flex-end;
+}
+header .container nav .collapseDiv ul {
+  gap: 25px;
+}
+
+#shopwith {
+  width: 100%;
+  background: linear-gradient(transparent, grey), url(/img/hero_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#shopwith .container {
+  width: 95%;
+}
+#shopwith .container .row {
+  padding: 30px;
+}
+#shopwith .container .row .shopwithtext {
+  padding: 30px;
+}
+#shopwith .container .row .shopwithtext h1 {
+  padding-top: 30px;
+  font-size: 80px;
+  font-weight: 900;
+  color: white;
+}
+#shopwith .container .row .shopwithtext p {
+  padding-top: 20px;
+  color: white;
+  font-size: 18px;
+}
+#shopwith .container .row .shopwithtext .shopbutton {
+  display: flex;
+  gap: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+#shopwith .container .row .shopwithtext .shopbutton button {
+  padding: 15px 22px 15px 22px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+}
+#shopwith .container .row .shopwithtext .shopbutton button:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+#shopwith .container .row .shopwithtext .shopbutton .shp {
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+}
+#shopwith .container .row .shopwithtext .shopbutton .shp:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 991px) {
+  #shopwith {
+    font-size: 30px;
+  }
+}
+#apisection .divbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#apisection .divbtn #btn {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .divbtn #btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+#apisection .container {
+  width: 95%;
+}
+#apisection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#apisection .container .row .apitext {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+#apisection .container .row .apitext h2 {
+  font-size: 35px;
+  padding: 20px;
+  font-weight: 800;
+}
+#apisection .container .row .apitext span {
+  color: grey;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#apisection .container .row .apitext p {
+  padding: 20px;
+  color: grey;
+  font-size: 17px;
+}
+#apisection .container .row .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+#apisection .container .row .buttons input {
+  width: 90px;
+  height: 33px;
+  padding-left: 20px;
+  border: 1px solid black;
+  outline: none;
+}
+#apisection .container .row .buttons input #inpp {
+  padding: 10px;
+}
+#apisection .container .row .buttons button {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  border: none;
+  margin-left: -10px;
+}
+#apisection .container .row .buttons button button:hover {
+  background-color: white;
+  color: black;
+}
+#apisection .container .row .buttons button:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  transition: 0.5s;
+}
+#apisection .container .row #apidiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#apisection .container .row #apidiv .boxDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #414040;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn:hover {
+  background-color: white;
+  color: #000000;
+  transition: 0.5s;
+}
+
+#leadership {
+  width: 100%;
+}
+#leadership .container {
+  width: 95%;
+}
+#leadership .container .row {
+  padding: 30px;
+}
+#leadership .container .row .leader {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#leadership .container .row .leader p {
+  color: grey;
+}
+#leadership .container .row .leader h1 {
+  font-weight: 700;
+  padding: 20px;
+}
+#leadership .container .row .leadershipteam {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#leadership .container .row .leadershipteam img {
+  max-width: 100%;
+  padding: 30px;
+}
+#leadership .container .row .leadershipteam .leadericon {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+#leadership .container .row .leadershipteam .leadericon i {
+  background-color: #777777;
+  color: white;
+  width: 9%;
+  height: 29px;
+  font-size: 13px;
+  gap: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#formSEC {
+  width: 100%;
+}
+#formSEC .container {
+  width: 95%;
+}
+#formSEC .container .row {
+  padding: 30px;
+}
+#formSEC .container .row .formsec {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#formSEC .container .row .formsec p {
+  color: grey;
+}
+#formSEC .container .row .formsec h1 {
+  font-weight: 800;
+}
+#formSEC .container #myFORM {
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+#formSEC .container #myFORM .namess {
+  display: flex;
+  width: 70%;
+}
+#formSEC .container #myFORM .namess #nameinput {
+  width: 70%;
+}
+#formSEC .container #myFORM .namess #lastnameinput {
+  width: 70%;
+}
+#formSEC .container #myFORM #emailinput {
+  width: 60%;
+}
+#formSEC .container #myFORM #subjectinput {
+  width: 60%;
+}
+#formSEC .container #myFORM #messageinput {
+  width: 120%;
+  height: 100px;
+}
+#formSEC .container #myFORM .buttonclass {
+  padding-top: 20px;
+}
+#formSEC .container #myFORM .buttonclass #submit {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: 15px;
+  border: none;
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#productsList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#productsList .boxdi {
+  display: flex;
+  flex-direction: column;
+}
+#productsList .boxdi img {
+  margin-bottom: 30px;
+}
+#productsList .boxdi button {
+  width: 100px;
+  border: none;
+  background-color: purple;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  outline: none;
+}

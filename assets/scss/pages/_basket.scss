@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#productsList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .boxdi{
+        display: flex;
+        flex-direction: column;
+        img{
+            margin-bottom: 30px;
+           
+        }
+        button{
+            width: 100px;
+            border: none;
+           background-color: purple;
+            height: 40px;
+          font-size: 15px;
+            color: white;
+            font-weight: 600;
+            outline: none;
+          
+        }
+    }
+}
